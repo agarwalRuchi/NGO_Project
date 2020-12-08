@@ -1,0 +1,201 @@
+footer {
+    background-color: #031100;
+    color: white;
+    margin-top:100px;
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2ss;
+ 
+  }
+  
+  footer a:hover {
+    color: darkgreen;
+    text-decoration: none;
+   
+  }
+  
+  .copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+  
+
+  
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  
+  /* footer social icons */
+  
+  .social-network a.fb:hover {
+    background-color: #3B5998;
+  }
+  
+  .social-network a.linkedin:hover {
+    background-color: #007bb7;
+  }
+  
+  .social-network a.fb:hover i,
+  .social-network a.linkedin:hover i,
+  .social-network a.yt:hover i {
+    color: #fff;
+  }
+  
+  .social-network a.socialIcon:hover,
+  .socialHoverClass {
+    color: #44BCDD;
+  }
+  .social-network a.yt:hover{
+      background-color: red;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  .social-network a {
+    background-color: #F9F9F9;
+  }
+  .overlay{
+    background-image:
+    linear-gradient(to bottom,  rgba(0, 0, 0, 0.856),rgba(38, 46, 27, 0.815)),
+    url('../image/main.jpg');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    color: white;
+  
+ 
+  }
+  .stray-donation{
+    background-image: 
+    url('../image/stray1.jpg');
+  width: 100%;
+  height: 80%;
+
+  }
+  .overlay  ,.stray-donation{
+    position: relative;
+
+background-repeat: no-repeat;
+
+background-size: cover;
+min-height: 100%;
+ background-attachment: fixed;
+  }
+  .text-sec{
+    color:white;
+    padding:80px
+  }
+  .textquot{
+    color:whitesmoke;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30;
+  }
+  .subt{
+    font-family: 'Julius Sans One';
+     font-size:50px; 
+    color:white;
+ 
+     text-align:center;
+  }
+  .volunteer{
+    background-image: url('../image/volunteer.jpg');
+  }
+  .donate{
+    background-image:url('../image/don.jpg') ;
+    height: 100%;
+    width: 100%;
+  }
+  .signup{
+      background-image: url('../image/signup.jpg');
+  }
+  .volunteer,.donate,.signup{
+    height:300px;
+    width: 900%;
+   padding-top: 200px;
+    color: whitesmoke;
+    font-family: 'Cinzel';
+    font-size: 30px;
+   
+   
+  }
+  .overl{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background:rgba(0,0,0,0.8);
+  }
+  .volunteer:hover .overl,.donate:hover .overl,.signup:hover .overl {
+    opacity: 1.0;
+
+  }
+  .otext{
+    color:white;
+    font-size: large;
+    padding:15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
