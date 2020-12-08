@@ -129,7 +129,10 @@ footer {
   height: 80%;
 
   }
-  .overlay  ,.stray-donation{
+  .ourwork{
+    background-image: url('../image/log.png');
+  }
+  .overlay  ,.stray-donation, .ourwork{
     position: relative;
 
 background-repeat: no-repeat;
@@ -140,7 +143,7 @@ min-height: 100%;
   }
   .text-sec{
     color:white;
-    padding:80px
+    padding:80px;
   }
   .textquot{
     color:whitesmoke;
@@ -198,4 +201,15 @@ min-height: 100%;
     font-size: large;
     padding:15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .card-img-top{
+  
+    height:200px
+  }
+  .card-body{
+      color: white;
+      background-image: 
+      linear-gradient(to bottom,  rgba(0, 0, 0, 0.856),rgba(0, 0, 0, 0.815)),url('../image/logopic.jpg');
+      background-repeat: no-repeat;
+      background-size:cover ;
   }
