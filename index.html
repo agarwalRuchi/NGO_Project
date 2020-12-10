@@ -43,7 +43,7 @@
                 </li>
             
                 <li class="nav-item">
-                  <a class="nav-link " href="" >Our Work</a>
+                  <a class="nav-link " href="./ourwork.html" >Our Work</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="" >About us</a>
@@ -51,15 +51,55 @@
               </ul>
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><button type="button" class="btn btn-outline-light">Donate</button></a>
+                  <a class="nav-link "onclick="document.getElementById('id01').style.display='block'" style="width:auto;" href="#"><button type="button" class="btn btn-outline-light"><i class="fa fa-heart"></i> Donate</button></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><button type="button" class="btn btn-outline-light">Sign-in</button></a>
+                  <a class="nav-link" href="#"><button type="button" class="btn btn-outline-light">&nbsp&nbsp Sign-in&nbsp&nbsp</button></a>
                 </li>
               </ul>
             
             </div>
             </nav>
+            <div id="id01" class="modal">
+             <div class="col col-md-5 offset-md-3">
+              <form class="modal-content animate" action="/action_page.php" method="post">
+                <div class="imgcontainer">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                 <h3 style="font-family: Sofia;font-size: xx-large;">Donate to Safe Heavens</h3>
+                </div>
+            
+                <div class="container">
+                  <label for="uname"><b>Name</b></label>
+                  <input type="text" placeholder="Enter Name" name="fname" required>
+                  <label for="mail">Email-id</label>
+                  <input type="email" placeholder="Enter your mail id" name="email" required>
+                 <label for="don" >Choose your amount&nbsp </label>
+                 <br/>
+                 <div class="form-check form-check-inline ">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
+                  <label class="form-check-label" for="inlineRadio1">250</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">500</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" >
+                  <label class="form-check-label" for="inlineRadio3">700</label>
+                </div>
+               <div style="padding-bottom: 15px;"></div>
+                
+                  <button type="submit" class="btn btn-secondary btn-block  " >Proceed to make payment</button>
+
+                </div>
+            
+                <div class="container" style="background-color:#f1f1f1">
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn btn btn-outline-danger">Cancel</button>
+                 
+                </div>
+              </form>
+              </div>
+            </div>
             <div class="overlay">
                <h1  style="font-family: 'Cinzel';font-size:70px;text-align: center;padding-top: 30px;">Safe Heaven</h1>
                <h5 style="text-align:center;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" >Stray Rescue and Animal Welfare</h4>
@@ -273,7 +313,18 @@
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-   
+   <script>
+
+    var modal = document.getElementById('id01');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+    
  
        
        
