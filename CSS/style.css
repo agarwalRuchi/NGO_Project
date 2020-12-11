@@ -408,10 +408,9 @@ min-height: 400px;
 }
 
 .post1 a:hover {
-  color:whitesmoke;
+ 
   background-color: #6c757d ;
- text-decoration-color:#6c757d ;
-  background-color: teal;
+  text-decoration: none;
 }
 
 
